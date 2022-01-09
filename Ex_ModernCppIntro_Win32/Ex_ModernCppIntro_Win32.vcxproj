@@ -19,12 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\pclaf\pclaf.cpp" />
-    <ClCompile Include="..\출판사 예제 파일\chapter2\HelloWinApplication\HelloWinApp.cpp" />
+    <ClCompile Include="pclaf.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\pclaf\pclaf.h" />
-    <ClInclude Include="..\출판사 예제 파일\chapter2\HelloWinApplication\HelloWinApp.h" />
+    <ClInclude Include="pclaf.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -15,18 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\출판사 예제 파일\chapter2\HelloWinApplication\HelloWinApp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\pclaf\pclaf.cpp">
+    <ClCompile Include="pclaf.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\출판사 예제 파일\chapter2\HelloWinApplication\HelloWinApp.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\pclaf\pclaf.h">
+    <ClInclude Include="pclaf.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

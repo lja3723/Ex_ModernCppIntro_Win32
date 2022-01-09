@@ -10,6 +10,7 @@ void PenApp::mouseDown(int x, int y)
 	newx = x;
 	newy = y;
 	// then update the screen
+	setPen(brightBlue);
 	clearAndUpdate();
 }
 
