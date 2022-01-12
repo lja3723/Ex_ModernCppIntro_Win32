@@ -1,4 +1,4 @@
-#include "3.4.13.exer.h"
+#include "3.4.14.exer.h"
 #include <cmath>
 
 template <typename T>
@@ -21,9 +21,15 @@ bool Circle::includes(int x, int y)
 {
 	return getDistance<long double>(centerX, centerY, x, y) < static_cast<long double>(radius);
 }
+int Circle::area()
+{
+	double PI = 3.14159265358979324;
+	return static_cast<int>(PI * radius * radius);
+}
 void Circle::draw(Application& app)
 {
 	app.circle(centerX, centerY, radius);
+	app.wout << setpos(centerX, centerY) << area();
 }
 
 CircleApp::CircleApp(const TCHAR* appName, int width, int height, int x, int y)

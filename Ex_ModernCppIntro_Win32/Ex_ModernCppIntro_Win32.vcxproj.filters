@@ -21,18 +21,12 @@
     <ClCompile Include="Rect.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3.4.13.exer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pclaf.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Rect.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="3.4.13.exer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
