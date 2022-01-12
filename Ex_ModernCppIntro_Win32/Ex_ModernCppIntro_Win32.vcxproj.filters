@@ -21,7 +21,7 @@
     <ClCompile Include="Rect.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="RectApp.cpp">
+    <ClCompile Include="3.3.4.RectApp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClInclude Include="Rect.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="RectApp.h">
+    <ClInclude Include="3.3.4.RectApp.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

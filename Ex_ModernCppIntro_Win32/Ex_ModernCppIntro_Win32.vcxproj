@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RectApp.cpp" />
+    <ClCompile Include="3.3.4.RectApp.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="pclaf.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3.3.4.RectApp.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="pclaf.h" />
-    <ClInclude Include="RectApp.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

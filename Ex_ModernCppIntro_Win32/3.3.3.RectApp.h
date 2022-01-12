@@ -1,7 +1,11 @@
 #pragma once
 #include "pclaf.h"
+#include <array>
+#include <memory>
+#include "Rect.h"
+using namespace RectSpace;
 
-class Rect;
+const auto MAX_RECTS = 20;
 
 class RectApp : public Application
 {
@@ -11,5 +15,6 @@ public:
 	void paint() override;
 
 	//data field
-	Rect* theRectPtr = nullptr;
+	std::array<std::unique_ptr<Rect>, MAX_RECTS> rects;
+	int rectCount = 0;
 };
