@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardApp.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="pclaf.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardApp.h" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="pclaf.h" />
   </ItemGroup>
