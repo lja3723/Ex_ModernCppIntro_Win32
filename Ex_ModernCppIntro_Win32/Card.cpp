@@ -1,7 +1,7 @@
 #include "Card.h"
 #include "pclaf.h"
 Card::Card(int posX, int posY, int _suit, int _rank)
-	: Rect(posX, posY, posX + CardWidth, posY + CardHeight),
+	: Rect(posX, posY, CardWidth, CardHeight),
 	suit(_suit), rank(_rank), faceUp(false)
 {}
 
@@ -16,7 +16,7 @@ void Card::draw(Application& app)
 		else
 			app.setTextColor(black);
 
-		app.wout << setpos(upperLeftX + 5, upperLeftY + 5);
+		app.wout << setpos(x + 5, y + 5);
 		if (suit == 1)
 			app.wout << TEXT("heart");
 		else if (suit == 2)
@@ -26,7 +26,7 @@ void Card::draw(Application& app)
 		else if (suit == 4)
 			app.wout << TEXT("diamond");
 
-		app.wout << setpos(upperLeftX + 5, upperLeftY + 20);
+		app.wout << setpos(x + 5, y + 20);
 		if (rank == 1)
 			app.wout << TEXT("ace");
 		else if (rank == 11)
@@ -40,10 +40,10 @@ void Card::draw(Application& app)
 	}
 	else
 	{
-		app.wout << setpos(upperLeftX + 30, upperLeftY + 38);
+		app.wout << setpos(x + 30, y + 38);
 		app.wout << TEXT("Back");
-		app.line(upperLeftX, upperLeftY, lowerRightX, lowerRightY);
-		app.line(lowerRightX, upperLeftY, upperLeftX, lowerRightY);
+		app.line(x, y, x + width, y + height);
+		app.line(x + width, y, x, y + height);
 	}
 }
 
