@@ -19,13 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4.3.2.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Figure.cpp" />
     <ClCompile Include="pclaf.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="4.3.2.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="pclaf.h" />

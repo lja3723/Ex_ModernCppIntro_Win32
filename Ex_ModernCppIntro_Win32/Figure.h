@@ -1,5 +1,4 @@
-#ifndef FIGURE_H
-#define FIGURE_H
+#pragma once
 #include <memory>
 
 class Application;
@@ -9,10 +8,13 @@ class Figure
 public:
 	Figure(int _x, int _y);
 	void moveTo(int x, int y);
+	virtual bool includes(int x, int y) const = 0;
 	virtual void draw(Application& app) = 0;
 
 	int x;
 	int y;
+	//Color col;
+	bool selected = false;
 };
 
 class Circle : public Figure
@@ -22,7 +24,8 @@ public:
 		: Figure(_x, _y), r(_r)
 	{}
 
-	virtual void draw(Application& app) override;
+	bool includes(int x, int y) const override;
+	void draw(Application& app) override;
 	int r;
 };
 
@@ -33,7 +36,7 @@ public:
 	Rect(int _x, int _y, int _width, int _height);
 
 	//operations
-	bool includes(int x, int y);
+	bool includes(int x, int y) const override;
 	virtual void draw(Application& app) override;
 
 	//data fields
@@ -42,5 +45,3 @@ public:
 };
 
 using FigurePtr = std::shared_ptr<Figure>;
-
-#endif

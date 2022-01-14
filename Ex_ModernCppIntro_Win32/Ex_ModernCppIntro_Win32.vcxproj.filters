@@ -21,9 +21,6 @@
     <ClCompile Include="Card.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.3.2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Figure.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -33,9 +30,6 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Card.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="4.3.2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Figure.h">
