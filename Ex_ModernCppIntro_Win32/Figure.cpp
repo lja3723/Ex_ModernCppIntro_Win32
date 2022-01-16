@@ -45,3 +45,26 @@ bool Rect::includes(int x, int y) const
 			return true;
 	return false;
 }
+
+//4.4.6.exer
+
+Triangle::Triangle(int x, int y)
+	:Figure(x, y), length(100)
+{
+}
+
+bool Triangle::includes(int x, int y) const
+{
+	return false;
+}
+
+void Triangle::draw(Application& app)
+{
+	int dx, dy;
+	dx = static_cast<int>(length * cos(60 * M_PI / 180));
+	dy = static_cast<int>(length * sin(60 * M_PI / 180));
+	//app.setPen(blue);
+
+	Point trianglePoints[] = { {x, y}, {x - dx, y + dy}, {x + dx, y + dy} };
+	app.polygon(trianglePoints, 3);
+}

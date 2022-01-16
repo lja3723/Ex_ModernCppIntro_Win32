@@ -50,6 +50,7 @@ using FigurePtr = std::shared_ptr<Figure>;
 class Triangle : public Figure {
 public:
 	Triangle(int, int);
+	bool includes(int x, int y) const override;
 	virtual void draw(Application&);
 
 	int length;
