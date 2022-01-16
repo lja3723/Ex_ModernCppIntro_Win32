@@ -1,7 +1,7 @@
 #ifndef CARD_H
 #define CARD_H
 
-#include "Rect.h"
+#include "Figure.h"
 #include <memory>
 
 class Card : public Rect

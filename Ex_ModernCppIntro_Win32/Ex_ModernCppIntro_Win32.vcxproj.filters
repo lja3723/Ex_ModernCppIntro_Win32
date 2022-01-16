@@ -18,7 +18,10 @@
     <ClCompile Include="pclaf.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Card.cpp">
+    <ClCompile Include="4.4.6.exer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Card_Figure.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Figure.cpp">
@@ -29,10 +32,13 @@
     <ClInclude Include="pclaf.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Card.h">
+    <ClInclude Include="4.4.6.exer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Figure.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Card_Figure.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

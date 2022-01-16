@@ -45,3 +45,12 @@ public:
 };
 
 using FigurePtr = std::shared_ptr<Figure>;
+
+//4.4.6.exer
+class Triangle : public Figure {
+public:
+	Triangle(int, int);
+	virtual void draw(Application&);
+
+	int length;
+};
