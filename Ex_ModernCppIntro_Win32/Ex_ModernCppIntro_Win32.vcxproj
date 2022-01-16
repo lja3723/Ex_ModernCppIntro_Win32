@@ -19,15 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4.4.6.exer.cpp" />
-    <ClCompile Include="Card_Figure.cpp" />
-    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="4.4.7.exer.cpp" />
+    <ClCompile Include="Card_4.4.7.exer.cpp" />
     <ClCompile Include="pclaf.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="4.4.6.exer.h" />
-    <ClInclude Include="Card_Figure.h" />
-    <ClInclude Include="Figure.h" />
+    <ClInclude Include="4.4.7.exer.h" />
+    <ClInclude Include="Card_4.4.7.exer.h" />
     <ClInclude Include="pclaf.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
