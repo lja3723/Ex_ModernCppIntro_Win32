@@ -29,7 +29,7 @@ void Rect::moveTo(int x, int y)
 void Rect::draw(Application& app)
 {
 	//first make sure the pen is correct
-	app.setPen(brightBlue);
+	//app.setPen(brightBlue);
 	app.rectangle(upperLeftX, upperLeftY, getWidth(), getHeight());
 }
 

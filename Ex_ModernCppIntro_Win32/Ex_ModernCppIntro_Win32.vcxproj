@@ -20,13 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Card.cpp" />
-    <ClCompile Include="chapter5.cpp" />
+    <ClCompile Include="Pile.cpp" />
     <ClCompile Include="pclaf.cpp" />
+    <ClCompile Include="PileApp.cpp" />
     <ClCompile Include="Rect.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
     <ClInclude Include="pclaf.h" />
+    <ClInclude Include="Pile.h" />
+    <ClInclude Include="PileApp.h" />
     <ClInclude Include="Rect.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

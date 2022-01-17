@@ -24,7 +24,10 @@
     <ClCompile Include="Rect.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="chapter5.cpp">
+    <ClCompile Include="Pile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PileApp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +39,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Card.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PileApp.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

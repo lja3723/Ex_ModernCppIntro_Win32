@@ -40,6 +40,7 @@ void Card::draw(Application& app)
 	}
 	else
 	{
+		app.setTextColor(black);
 		app.wout << setpos(upperLeftX + 30, upperLeftY + 38);
 		app.wout << TEXT("Back");
 		app.line(upperLeftX, upperLeftY, lowerRightX, lowerRightY);
